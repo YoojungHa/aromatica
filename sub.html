@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>아로마티카</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+</head>
+<body>
+    <header>
+        <!-- header.html -->
+    </header>
+    <div id="sub_visual">
+        <div class="centerbox1314">
+            <div class="prod-thumb">
+                <!-- Swiper -->
+                <div class="swiper mySwiper2">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><img src="images/sub-img01.jpg" alt="sub-img01"></div>
+                        <div class="swiper-slide"><img src="images/sub-img02.jpg" alt="sub-img02"></div>
+                        <div class="swiper-slide"><img src="images/sub-img03.jpg" alt="sub-img03"></div>
+                    </div>
+                    <div class="swiper-scrollbar"></div>
+                </div>
+            </div>
+            <div class="infoSection">
+                <p class="eng">mellowness body oil magnolia & sandalwood</p>
+                <p class="name">멜로우니스 바디오일 매그놀리아 & 샌달우드 100ML</p>
+                <div class="reviewBox">
+                    <p class="stars">
+                        <img src="images/sub-icon_star.png" alt="star">
+                        <img src="images/sub-icon_star.png" alt="star">
+                        <img src="images/sub-icon_star.png" alt="star">
+                        <img src="images/sub-icon_star.png" alt="star">
+                        <img src="images/sub-icon_star.png" alt="star">
+                    </p>
+                    <p class="rating">4.9</p>
+                    <p class="reviews">
+                        <a href="#">345 reviews</a>
+                    </p>
+                </div>
+                <div class="priceBox">
+                    <p class="sale">20%&#8595;</p>
+                    <div class="price">20,000원</div>
+                    <div class="ogPrice">25,000원</div>
+                </div>
+                <p class="selectTit">선택</p>
+                <select>                    
+                    <option value="필수">- [필수] 옵션을 선택해주세요 -</option>
+                    <option value="disabled" disabled>-------------------</option>
+                    <optgroup label="선택">
+                        <option value="상품번호">멜로우니스 바디오일 매그놀리아&샌달우드</option>
+                        <option value="상품번호">멜로우니스 바디오일 + 에센스 펌프 (+3,500원)</option>
+                    </optgroup>
+                </select>
+                <div class="totalPriceBox">
+                    <p class="tit">상품 합계 금액</p>
+                    <p class="totalPrice">0</p>
+                </div>
+                <div class="btnBox">
+                    <div class="cartBtn">
+                        <button class="cart">장바구니</button>
+                    </div>
+                    <div class="buyBtn">
+                        <button class="buy">구매하기</button>
+                    </div>
+                    <div class="payBtn">
+                        <button class="Npay"><img src="images/sub-icon_Npay.png" alt="Npay_icon"></button>
+                    </div>
+                </div>
+                <div class="keywordBox">
+                    <p>#오일 보습</p>
+                    <p>#피부 3중 탄력</p>
+                    <p>#피부 광채</p>
+                    <p>#우디 플로럴</p>
+                </div>
+                <div class="aboutProduct">
+                    <div class="titleBox">
+                        <h2><a href="#">제품 설명</a></h2>
+                        <h2><a href="#">주요성분</a></h2>
+                        <h2><a href="#">사용법</a></h2>
+                    </div>
+                    <div class="contentBox">
+                        <p class="descrip">
+                            긴장을 풀고 일상을 드라마틱하게 만들어주는 낭만적인 바디 리츄얼을 경험해보세요.
+                            늦은 밤 어둑한 하늘 아래 새하얗게 핀 목련꽃 향의 포근함이 내면의 안정을 되찾아주고, 
+                            파우더리한 발사믹 향취의 통카빈과 묵직한 샌달우드가 마음의 어지러움을 지우고 
+                            평온한 상태에 이르도록 도와줍니다. 4가지 식물성 오일의 독자적인 효소활성화 
+                            공법으로 바디 피부 3중 탄력 개선과 높은 보습 효과를 선사합니다.
+                        </p>
+                        <p class="compo">
+                            6가지 식물성 오일, 매그놀리아오일, 샌달우드오일, 쟈스민오일, 제라늄오일
+                        </p>
+                        <p class="howtouse">
+                            샤워 후 물기가 살짝 남은 상태에서 마사지하듯 부드럽게 펴 바르며 흡수시켜 주세요.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <!-- footer.html -->
+    </footer>
+
+    <script src="script/jquery-3.7.1.js"></script>
+    <script src="script/action.js"></script>
+     <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper2", {
+        scrollbar: {
+            el: ".swiper-scrollbar",
+            hide: false
+        },
+        });
+    </script>
+</body>
+</html>
